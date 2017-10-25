@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 var mongojs = require('mongojs');
-var db = mongojs('user:user@ds227555.mlab.com:27555/mobileuserdb',['UserDetails']);
+var db = mongojs('user:user@ds231205.mlab.com:31205/smarttree',['UserDetails']);
 var bodyParser = require('body-parser');
 
 app.use(express.static(__dirname + '/public'));
